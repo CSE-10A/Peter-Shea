@@ -1,5 +1,6 @@
+#Imported Random to pick a name from "names"
 import random
-from tkinter.font import names
+
 names = [
     "Arjun",
     "Jerry",
@@ -16,6 +17,7 @@ names = [
     "Alex",
 ]
 
-random_name = random.choice(names)
+while True:
+    random.name = random.choice(names)
 
-print("The selected random name is:", random_name)
+print("The selected random name is:", random.name)
