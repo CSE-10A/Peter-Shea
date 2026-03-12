@@ -77,8 +77,41 @@ else:
 # This program converts tempurature between celsius and fahrenheit
 
 #celsius to fahrenheit conversion
-c = int(input("Enter tempurature in celsius: "))
-
-#Formaula for celsius to fahrenheit conversion
+c = 60
 f = (c * 9/5) + 32
-print("The temperature in fahrenheit is:", f)
+print("60 degrees Celsius is", f, "degrees Fahrenheit.")
+
+f = 45
+c= (f - 32) * 5/9
+print("45 degrees Fahrenheit is", c, "degrees Celsius.")
+
+
+#This program is to print weird or not weird
+n = int(input("Enter a number: "))
+
+if n % 2 != 0:
+    print("Weird")
+elif n % 2 == 0 and n >= 2 and n <= 5:
+    print("Not Weird")
+elif n % 2 == 0 and n >= 6 and n <= 20:
+    print("Weird")
+elif n % 2 == 0 and n > 20:
+    print("Not Weird")
+
+#Program to check leap year
+year = int(input("Enter a year: "))
+
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print(True)
+else:
+    print(False)
+
+#Guess a number between 1-9
+
+secret_number = 5
+guess = int(input("Guess a number between 1 and 9: "))
+
+if guess == secret_number:
+    print("Congratulations! You guessed the number.")
+else:
+    print("Sorry, that's not the correct number.")
