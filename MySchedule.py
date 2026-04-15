@@ -5,7 +5,7 @@
 print("My School Schedule")
 
 # Monday (Red Day)
-print("\nMonday (Red Day):")  # Prints the day label
+print("Monday (Red Day):")  # Prints the day label
 print("  8:00 - 8:30  Clubs/Office Hours")  # Period 0
 print("  8:35 - 9:35  English 10: Lit & Comp II-A (Mr. Farmer, Room 308)")  # Period C
 print("  9:40 - 10:40 Specials (Ms. LaSala-Goettler)")  # Specials
