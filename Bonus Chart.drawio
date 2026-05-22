@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="dufSU6aj6gHar-EYDdNI">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-2" edge="1" parent="1" source="bwCniy5xJiiU8dLkktnU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="c-9smk3vo4-Evwk_wXdl-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bwCniy5xJiiU8dLkktnU-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Start" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-4" edge="1" parent="1" source="c-9smk3vo4-Evwk_wXdl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="c-9smk3vo4-Evwk_wXdl-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-1" parent="1" style="whiteSpace=wrap;html=1;" value="Find the start box" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-6" edge="1" parent="1" source="c-9smk3vo4-Evwk_wXdl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="c-9smk3vo4-Evwk_wXdl-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-3" parent="1" style="whiteSpace=wrap;html=1;" value="Read the instructions inside the shape" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-8" edge="1" parent="1" source="c-9smk3vo4-Evwk_wXdl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="c-9smk3vo4-Evwk_wXdl-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-5" parent="1" style="whiteSpace=wrap;html=1;" value="Follow the arrow to the next step" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-10" edge="1" parent="1" source="c-9smk3vo4-Evwk_wXdl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="c-9smk3vo4-Evwk_wXdl-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Is that a decisiion?" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-12" edge="1" parent="1" source="c-9smk3vo4-Evwk_wXdl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="c-9smk3vo4-Evwk_wXdl-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-14" edge="1" parent="1" source="c-9smk3vo4-Evwk_wXdl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="c-9smk3vo4-Evwk_wXdl-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-11" parent="1" style="whiteSpace=wrap;html=1;" value="Choose next path based on yes or no answer" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-16" edge="1" parent="1" source="c-9smk3vo4-Evwk_wXdl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="c-9smk3vo4-Evwk_wXdl-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-13" parent="1" style="whiteSpace=wrap;html=1;" value="continue following arrows and steps" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="1005" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-20" edge="1" parent="1" source="c-9smk3vo4-Evwk_wXdl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="c-9smk3vo4-Evwk_wXdl-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-22" edge="1" parent="1" source="c-9smk3vo4-Evwk_wXdl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="c-9smk3vo4-Evwk_wXdl-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-15" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Reached the end box" vertex="1">
+          <mxGeometry height="80" width="140" x="560" y="995" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-19" edge="1" parent="1" source="c-9smk3vo4-Evwk_wXdl-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="c-9smk3vo4-Evwk_wXdl-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="740" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="End" vertex="1">
+          <mxGeometry height="80" width="120" x="710" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-24" edge="1" parent="1" source="c-9smk3vo4-Evwk_wXdl-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="c-9smk3vo4-Evwk_wXdl-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="600" y="896" as="geometry" />
+        </mxCell>
+        <mxCell id="c-9smk3vo4-Evwk_wXdl-23" parent="1" style="whiteSpace=wrap;html=1;" value="Go back to the following steps" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="771" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
